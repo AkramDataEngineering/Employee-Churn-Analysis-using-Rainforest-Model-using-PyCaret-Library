@@ -1,11 +1,6 @@
-Employee Churn Analysis Project
-📌 Project Overview
-Organizations often face challenges in retaining employees, leading to increased hiring and training costs.
-This project focuses on predicting employee churn using historical data and AutoML modeling with PyCaret.
-The insights can help HR teams proactively identify employees at risk and take preventive measures.
+Employee Churn Analysis Project 📌 Project Overview Organizations often face challenges in retaining employees, leading to increased hiring and training costs. This project focuses on predicting employee churn using historical data and AutoML modeling with PyCaret. The insights can help HR teams proactively identify employees at risk and take preventive measures.
 
-🎯 Problem Statement
-We are experiencing challenges with employee retention. The organization seeks to:
+🎯 Problem Statement We are experiencing challenges with employee retention. The organization seeks to:
 
 Identify employees who are likely to leave.
 
@@ -17,8 +12,7 @@ Focused on new employees.
 
 Built an Auto ML model trained on historical data to predict potential churners.
 
-🛠 Project Agenda
-Build Database (BigQuery)
+🛠 Project Agenda Build Database (BigQuery)
 
 Created a centralized database to store historical employee data.
 
@@ -50,8 +44,7 @@ Insights from the model
 
 Suggested HR interventions
 
-📊 Deliverables
-Employee Churn Dashboard in Looker Studio
+📊 Deliverables Employee Churn Dashboard in Looker Studio
 
 AutoML Churn Prediction Model (PyCaret)
 
@@ -59,8 +52,7 @@ BigQuery database with historical & predicted data
 
 Recommendation Presentation for management
 
-⚙️ Tech Stack
-Data Storage: Google BigQuery
+⚙️ Tech Stack Data Storage: Google BigQuery
 
 Data Analysis: Python, Pandas, PyCaret
 
