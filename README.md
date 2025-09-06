@@ -1,59 +1,66 @@
-Employee Churn Analysis Project 📌 Project Overview Organizations often face challenges in retaining employees, leading to increased hiring and training costs. This project focuses on predicting employee churn using historical data and AutoML modeling with PyCaret. The insights can help HR teams proactively identify employees at risk and take preventive measures.
+# 🧑‍💼 Employee Churn Analysis Project
 
-🎯 Problem Statement We are experiencing challenges with employee retention. The organization seeks to:
+## 📌 Project Overview  
+Organizations often face challenges in retaining employees, leading to increased hiring and training costs. This project focuses on predicting **employee churn** using historical data and **AutoML modeling with PyCaret**. The goal is to enable HR teams to proactively identify employees at risk of leaving and take preventive measures.
 
-Identify employees who are likely to leave.
+---
 
-Take proactive measures to reduce churn.
+## 🎯 Problem Statement  
+The organization is experiencing challenges with employee retention and seeks to:  
+- Identify employees who are likely to leave.  
+- Take proactive measures to reduce churn.  
 
-Pilot Program:
+### Pilot Program Focus:
+- Targeted **new employees** for early churn risk prediction.  
+- Built an **AutoML model** trained on historical data to predict potential churners.  
 
-Focused on new employees.
+---
 
-Built an Auto ML model trained on historical data to predict potential churners.
+## 🛠 Project Agenda  
 
-🛠 Project Agenda Build Database (BigQuery)
+### 1. Build Database (Google BigQuery)  
+- Created a centralized database to store historical employee data.  
 
-Created a centralized database to store historical employee data.
+### 2. Connect Python to BigQuery (Colab)  
+- Integrated **Google Colab** with BigQuery for seamless data extraction and analysis.  
 
-Connect Python to BigQuery (Colab)
+### 3. Build Churn Model (PyCaret - AutoML)  
+- Leveraged **PyCaret** for rapid experimentation and model selection.  
+- Focused on **classification models**, model evaluation, and feature importance.  
 
-Integrated Google Colab with BigQuery for seamless data extraction and analysis.
+### 4. Export Model Output to BigQuery  
+- Sent predictions and processed data back to BigQuery for reporting.  
 
-Build Churn Model (PyCaret - Auto ML)
+### 5. Build Dashboard (Looker Studio)  
+- Developed an **interactive dashboard** to monitor churn risk and employee insights.  
 
-Leveraged PyCaret to quickly experiment and find the best predictive model.
+### 6. Recommendations (PowerPoint / Google Slides)  
+- Created a management-friendly report summarizing:  
+  - High-risk employees  
+  - Insights from the model  
+  - Suggested HR interventions  
 
-Key techniques: Classification models, Model Evaluation, Feature Importance.
+---
 
-Export Model Output to BigQuery
+## 📊 Deliverables  
+- 📈 **Employee Churn Dashboard** in Looker Studio  
+- 🤖 **AutoML Churn Prediction Model** (PyCaret)  
+- 🗄️ **BigQuery Database** with historical & predicted data  
+- 📑 **Recommendation Presentation** for management  
 
-Predictions and processed data exported back for reporting and dashboarding.
+---
 
-Build Dashboard (Looker Studio)
+## ⚙️ Tech Stack  
+| Component        | Tool/Technology             |
+|------------------|----------------------------|
+| **Data Storage** | Google BigQuery           |
+| **Data Analysis**| Python, Pandas, PyCaret   |
+| **Visualization**| Looker Studio             |
 
-Developed an interactive dashboard to monitor churn risk and employee insights.
+---
 
-Recommendations (PowerPoint / Google Slides)
-
-Created a management-friendly report summarizing:
-
-High-risk employees
-
-Insights from the model
-
-Suggested HR interventions
-
-📊 Deliverables Employee Churn Dashboard in Looker Studio
-
-AutoML Churn Prediction Model (PyCaret)
-
-BigQuery database with historical & predicted data
-
-Recommendation Presentation for management
-
-⚙️ Tech Stack Data Storage: Google BigQuery
-
-Data Analysis: Python, Pandas, PyCaret
-
-Visualization: Looker Studio
+## 🔑 Key Impact  
+- Early identification of **high-risk employees**.  
+- Data-driven recommendations for HR teams.  
+- Streamlined reporting through **BigQuery-Looker integration**.  
+- Reduced costs associated with att
